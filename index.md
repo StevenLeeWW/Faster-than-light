@@ -1,4 +1,4 @@
-# Faster than light communication?
+# Faster-than-light communication?
 
 Updated on 02.08.2021
 
