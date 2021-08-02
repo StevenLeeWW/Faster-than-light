@@ -55,3 +55,11 @@ The fifth point (the pi-phase-shift) is due to the unitary operation of the beam
 
 Now let's say that the signal photons are sent to Alice and the idler photons are sent to Bob. Assume that the distance between the BBO crystal and Alice is shorter than the distance between the BBO crystal and Bob, therefore the signal photon will reach Alice before the idler photon reaches Bob.
 
+<center>
+<img src="Kim_EtAl_Quantum_Eraser3.png" alt="Schematic diagram of the FTL-communication setup">
+</center>
+
+Figure 3: Schematic diagram of the one of the setup that might make FTL-communication possible. The signal photons will reach Alice earlier than the idler photons reach Bob. In this setup, the possible paths of the idler photon is combined into a single path using a few mirrors and the signal photon is detected by detector `D5` before Bob's idler photon can reach detector `D0`.
+
+From Figure 3, we can see that the two possible paths of the idler photon is combined into a single path using a few mirrors. The signal photon is detected by detector `D5` before Bob's idler photon can reach detector `D0`. The detector `D5` can be an atom inside a cavity. 
+
