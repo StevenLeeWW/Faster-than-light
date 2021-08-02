@@ -13,12 +13,26 @@ Before I start to talk about the experiment setup that seems possible to let us 
 
 ## Understanding the [DCQE](https://arxiv.org/abs/quant-ph/9903047) experiment.
 
-In the internet, people like to mystify the DCQE experiment by invoking retrocausality (i.e. future event can affect past event) in their explanation of the experiment's results. 
-Actually, there are other explanations that do not invoke retrocausality (See for example the blog [Deflating Delayed Choice Quantum Erasure](https://algassert.com/quantum/2016/01/07/Delayed-Choice-Quantum-Erasure.html) and [A Classical Delayed Choice Experiment](https://algassert.com/post/1720) and the paper [Taming the DCQE](https://arxiv.org/abs/1707.07884)). 
+<center>
+<img src="Kim_EtAl_Quantum_Eraser.svg" alt="Wikipedia Schematic diagram of the DCQE experiment by Kim et al.">
+</center>
 
+Figure 1: Setup of the delayed-choice quantum-eraser experiment of Kim et al (from [Wikipedia](https://en.wikipedia.org/wiki/Delayed-choice_quantum_eraser#/media/File:Kim_EtAl_Quantum_Eraser.svg)).
+
+In the internet, people like to mystify the DCQE experiment by invoking retrocausality (i.e. future event can affect past event) in their explanation of the experiment's results. Actually, there are other explanations that do not invoke retrocausality (See for example the blog [Deflating Delayed Choice Quantum Erasure](https://algassert.com/quantum/2016/01/07/Delayed-Choice-Quantum-Erasure.html) and [A Classical Delayed Choice Experiment](https://algassert.com/post/1720) and the paper [Taming the DCQE](https://arxiv.org/abs/1707.07884)). 
 
 Here, I will just give a summary of important points about the DCQE experiment. For a more detailed explanation with a little bit more math, please read the ["paper"]() written by me.
 
+<center>
+<img src="Kim_EtAl_DCQE.png" alt="Schematic diagram of the DCQE experiment by Kim et al.">
+</center>
+
+Figure 2: Setup of the delayed-choice quantum-eraser experiment (from the original [paper](https://doi.org/10.1103/PhysRevLett.84.1) by Scully, Kim, Yu, Kulik, Shih). 
+
+### Brief description of the experiment:
+1. The pump laser beam is divided by a double slit and forms two regions A and B inside the BBO crystal. A pair of signal-idler photons is then generated from either the A or the B region.
+
 ### Importants points:
-1. In this One can never directly see an interference pattern on the detector D0 without grouping the dots based on where the idler photons are detected.
+1. The quantum entanglement between the signal and the idler photon is due to the conservation of energy and momentum.
+2. In this One can never directly see an interference pattern on the detector D0 without grouping the dots based on where the idler photons are detected.
 
