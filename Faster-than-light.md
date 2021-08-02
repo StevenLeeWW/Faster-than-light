@@ -21,7 +21,7 @@ Figure 1: Setup of the delayed-choice quantum-eraser experiment of Kim et al (fr
 
 In the internet, people like to mystify the DCQE experiment by invoking retrocausality (i.e. future event can affect past event) in their explanation of the experiment's results. Actually, there are other explanations that do not invoke retrocausality (See for example the blog [Deflating Delayed Choice Quantum Erasure](https://algassert.com/quantum/2016/01/07/Delayed-Choice-Quantum-Erasure.html) and [A Classical Delayed Choice Experiment](https://algassert.com/post/1720) and the paper [Taming the DCQE](https://arxiv.org/abs/1707.07884)). 
 
-Here, I will just give a summary of important points about the DCQE experiment. For a more detailed explanation with a little bit more math, please read the ["paper"]() (written by me) or watch this [video](https://www.youtube.com/watch?v=SiVfvtwfmAw&t=8s).
+Here, I will just give a summary of important points about the DCQE experiment. For a more detailed explanation with a little bit more math, please read the "[paper"](https://github.com/StevenLeeWW/Faster-than-light/blob/main/superluminal.pdf)" (written by me) or watch this [video](https://www.youtube.com/watch?v=SiVfvtwfmAw&t=8s).
 
 <center>
 <img src="Kim_EtAl_DCQE.png" alt="Schematic diagram of the DCQE experiment by Kim et al.">
@@ -44,7 +44,7 @@ The short answer is: They DON'T. <br>
 > + The longer answer is: The interference patterns only "reappear" if the idler photons are detected at `D1` and `D2`, AND **AFTER** the detection locations of the signal photons are **GROUPED** based on where (`D1` or `D2`) the idler photons are detected.
 > + DO NOT forget that interference can also occur for the wave function of the IDLER photon at the last beam splitter!
 
-The fifth point (the pi-phase-shift) is due to the unitary operation of the beam splitter on the wave function of the idler photon (see the MIT OCW [video](https://www.youtube.com/watch?v=0USje5vTIKs) about the matrix representation of the unitary operation of the beam splitter; and section 3.6 of the "[paper]()")
+The fifth point (the pi-phase-shift) is due to the unitary operation of the beam splitter on the wave function of the idler photon (see the MIT OCW [video](https://www.youtube.com/watch?v=0USje5vTIKs) about the matrix representation of the unitary operation of the beam splitter; and section 3.6 of the "[paper](https://github.com/StevenLeeWW/Faster-than-light/blob/main/superluminal.pdf)")
 
 ### A small conclusion for the DCQE experiment before we talk about the FTL communication
 
@@ -63,7 +63,7 @@ Figure 3: Schematic diagram of the one of the setup that might make FTL-communic
 
 From Figure 3, we can see that the two possible paths of the idler photon is combined into a single path using a few mirrors. The signal photon is detected by detector `D5` before Bob's idler photon can reach detector `D0`. The detector `D5` can be an atom inside a cavity. When the signal photon is absorbed, the atom transitions from a lower energy state to a higher energy state, and later reemit the energy as radiation in random direction, effectively deleted the which-region-information that one can obtain from the signal photon. 
 
-After this, the wave function of the idler photon travelling to Bob should be able to produce interference pattern because now the which-region-information carried by the signal photon is deleted. If this process is repeated many many times, Bob should be able to see an interference pattern with detector `D0`. For those who would like to see the math, please kindly read this "[paper]()".
+After this, the wave function of the idler photon travelling to Bob should be able to produce interference pattern because now the which-region-information carried by the signal photon is deleted. If this process is repeated many many times, Bob should be able to see an interference pattern with detector `D0`. For those who would like to see the math, please kindly read this "[paper](https://github.com/StevenLeeWW/Faster-than-light/blob/main/superluminal.pdf)".
 
 On the other hand, if Alice choose not to delete the which-region-information carried by the signal photon, but to obtain the information, she can do so by using the setup illustrated in Figure 4.
 
@@ -79,8 +79,8 @@ Alice and Bob can agree beforehand that if Bob sees an interference pattern with
 
 
 
-Again, for those who would like to see some math, please kindly read this "[paper]()".
+Again, for those who would like to see some math, please kindly read this "[paper](https://github.com/StevenLeeWW/Faster-than-light/blob/main/superluminal.pdf)".
 
 By using this method, Alice and Bob seem to be able to communicate using quantum entanglement, which violates the [no-communication-theorem](https://en.wikipedia.org/wiki/No-communication_theorem) (a.k.a. no-signaling-theorem). If the setup is arranged in such a way that the BBO crystal in located between Alice and Bob, and light sent by Alice will take a longer time to travel from Alice to Bob than the light from the BBO crystal to Alice and Bob, then the communication between Alice and Bob using this method will become a faster-than-light (FTL) communication (a.k.a. superluminal communication), which again will cause a lot of troubles to physics...
 
-Since all of 
+So, what do you think? Do you think that this is possible? If not, why? I am very curious to know the reason. Feel free to tell me about your answers and comments through [Facebook](https://www.facebook.com/StevenLeeWenWu/) messenger :)
