@@ -59,10 +59,28 @@ Now let's say that the signal photons are sent to Alice and the idler photons ar
 <img src="Kim_EtAl_Quantum_Eraser3.png" alt="Schematic diagram of the FTL-communication setup">
 </center>
 
-Figure 3: Schematic diagram of the one of the setup that might make FTL-communication possible. The signal photons will reach Alice earlier than the idler photons reach Bob. 
+Figure 3: Schematic diagram of the one of the setup that might make FTL-communication possible. The signal photons will reach Alice earlier than the idler photons reach Bob. Alice choose to **delete** the which-region-information carried by the signal photon before the idler photon reaches Bob's detector `D0`.
 
 From Figure 3, we can see that the two possible paths of the idler photon is combined into a single path using a few mirrors. The signal photon is detected by detector `D5` before Bob's idler photon can reach detector `D0`. The detector `D5` can be an atom inside a cavity. When the signal photon is absorbed, the atom transitions from a lower energy state to a higher energy state, and later reemit the energy as radiation in random direction, effectively deleted the which-region-information that one can obtain from the signal photon. 
 
 After this, the wave function of the idler photon travelling to Bob should be able to produce interference pattern because now the which-region-information carried by the signal photon is deleted. If this process is repeated many many times, Bob should be able to see an interference pattern with detector `D0`. For those who would like to see the math, please kindly read this "[paper]()".
 
-To make this into a communication device, Alice 
+On the other hand, if Alice choose not to delete the which-region-information carried by the signal photon, but to obtain the information, she can do so by using the setup illustrated in Figure 4.
+
+<center>
+<img src="Kim_EtAl_Quantum_Eraser.png" alt="Schematic diagram of the FTL-communication setup">
+</center>
+
+Figure 4: Schematic diagram of the one of the setup that might make FTL-communication possible. The signal photons will reach Alice earlier than the idler photons reach Bob. Alice choose to **obtain** the which-region-information carried by the signal photon before the idler photon reaches Bob's detector `D0`.
+
+If the signal photon is detected by detector `D3`, then Alice knows that the signal-idler pair came from region `A`. If the signal photon is detected by detector `D4`, then Alice knows that the signal-idler pair came from region `B`. Since the which-region-information can be known now, the state of the idler photon heading to Bob is no longer a superposition state. Therefore, Bob will not see an interference pattern.
+
+Alice and Bob can agree beforehand that if Bob sees an interference pattern with `D0`, it means Alice sends then number `0` to Bob, and if he does not see an interference pattern, it means Alice sends him the number `1`. They know that there will be enough signal-idler-pairs generated in one minute such that Bob can see clearly whether an interference pattern is present, and therefore agreed that every minute Bob will clear the pattern recorded by `D0`, and Alice will send a new number (`0` or `1`) to Bob. 
+
+
+
+Again, for those who would like to see some math, please kindly read this "[paper]()".
+
+By using this method, Alice and Bob seem to be able to communicate using quantum entanglement, which violates the [no-communication-theorem](https://en.wikipedia.org/wiki/No-communication_theorem) (a.k.a. no-signaling-theorem). If the setup is arranged in such a way that the BBO crystal in located between Alice and Bob, and light sent by Alice will take a longer time to travel from Alice to Bob than the light from the BBO crystal to Alice and Bob, then the communication between Alice and Bob using this method will become a faster-than-light (FTL) communication (a.k.a. superluminal communication), which again will cause a lot of troubles to physics...
+
+Since all of 
