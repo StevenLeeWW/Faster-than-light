@@ -1,6 +1,6 @@
 # Faster-than-light communication?
 
-Updated on 02.08.2021
+Updated on 03.08.2021
 
 When you see the title, you probably think that this is not gonna work, because you learned that the ultimate speed limit of the universe is the speed of light (actually every 
 massless object will travel in this speed in the vaccuum). Massive object moving faster than light is impossible as shown in Einstein's special relativity. More importantly, 
@@ -93,4 +93,4 @@ By using this method, Alice and Bob seem to be able to communicate using quantum
 
 So, what do you think? Do you think that this is possible? If not, why? I am very curious to know the reason. Feel free to tell me about your answers and comments through [Facebook](https://www.facebook.com/StevenLeeWenWu/) messenger 😉
 
-&copy; Copyright 2021, Lee Wen Wu, Last updated on Aug 02, 2021.
+&copy; Copyright 2021, Lee Wen Wu, Last updated on Aug 03, 2021.
