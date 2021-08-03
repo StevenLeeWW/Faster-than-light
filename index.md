@@ -39,7 +39,7 @@ Here, I will just give a summary of important points about the DCQE experiment. 
 ### Comments about some of the points:
 
 + The third point is due to the availability of the which-region-information (or which-path-information) in the entangled idler photon, which means that one can (in principle) find out from which region (`A` or `B`) of the BBO crystal the signal-idler pair came from by carrying out some suitable measurements on the idler photon. 
-> This availablity of the which-region-infomation makes the wavefunction of the signal photon unable to produce interference pattern, **REGARDLESS** of where the entangled idler photons end up later!
+> This availablity of the which-region-infomation makes the wavefunction of the signal photon unable to produce interference pattern, **REGARDLESS** of where the entangled idler photons end up later! (See section 3.3 in this "[paper](https://github.com/StevenLeeWW/Faster-than-light/blob/main/superluminal.pdf)" for more math details)
 
 + One might then ask: how do the interference patterns reappear when the idler photons are detected at `D1` and `D2`?<br>
 The short answer is: They DON'T. <br>
