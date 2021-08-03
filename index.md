@@ -61,7 +61,7 @@ Now let's say that the signal photons are sent to Alice and the idler photons ar
 <img src="Kim_EtAl_Quantum_Eraser3.png" alt="Schematic diagram of the FTL-communication setup">
 </center>
 
-Figure 3: Schematic diagram of the one of the setup that might make FTL-communication possible. The signal photons will reach Alice earlier than the idler photons reach Bob. Alice choose to **delete** the which-region-information carried by the signal photon before the idler photon reaches Bob's detector `D0`.
+Figure 3: Schematic diagram of the one of the setup that might make FTL-communication possible. The signal photons will reach Alice earlier than the idler photons reach Bob. In this configuation, Alice chooses to **delete** the which-region-information carried by the signal photon before the idler photon reaches Bob's detector `D0`.
 
 From Figure 3, we can see that the two possible paths of the signal photon is combined into a single path using a few mirrors. The signal photon is detected by detector `D5` before Bob's idler photon can reach detector `D0`. The detector `D5` can be an atom inside a cavity. When the signal photon is absorbed by the atom, the atom transitions from a lower energy state to a higher energy state, and later reemits the energy as radiation in random direction, effectively delete the which-region-information that one can obtain from the signal photon. 
 
@@ -73,7 +73,7 @@ On the other hand, if Alice choose not to delete the which-region-information ca
 <img src="Kim_EtAl_Quantum_Eraser.png" alt="Schematic diagram of the FTL-communication setup">
 </center>
 
-Figure 4: Schematic diagram of the one of the setup that might make FTL-communication possible. The signal photons will reach Alice earlier than the idler photons reach Bob. Alice choose to **obtain** the which-region-information carried by the signal photon before the idler photon reaches Bob's detector `D0`.
+Figure 4: Schematic diagram of the one of the setup that might make FTL-communication possible. The signal photons will reach Alice earlier than the idler photons reach Bob. In this configuration, Alice chooses to **obtain** the which-region-information carried by the signal photon before the idler photon reaches Bob's detector `D0`.
 
 If the signal photon is detected by detector `D3`, then Alice knows that the signal-idler pair came from region `A`. If the signal photon is detected by detector `D4`, then Alice knows that the signal-idler pair came from region `B`. Since the which-region-information can be known now, the state of the idler photon heading to Bob is no longer a superposition state. Therefore, Bob will not see an interference pattern.
 
