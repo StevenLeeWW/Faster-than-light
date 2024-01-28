@@ -1,0 +1,577 @@
+{
+  "name": "Virtual Lab: New Experiment",
+  "grid": {
+    "width": 13,
+    "height": 10,
+    "pieces": [
+      {
+        "coord": {
+          "x": 0,
+          "y": 0
+        },
+        "flags": 3,
+        "states": [
+          {
+            "type": "Mirror",
+            "rotation": 6
+          }
+        ]
+      },
+      {
+        "coord": {
+          "x": 0,
+          "y": 2
+        },
+        "flags": 3,
+        "states": [
+          {
+            "type": "Polarizer",
+            "rotation": 6,
+            "absorption": 1
+          }
+        ]
+      },
+      {
+        "coord": {
+          "x": 0,
+          "y": 9
+        },
+        "flags": 3,
+        "states": [
+          {
+            "type": "Mirror",
+            "rotation": 5
+          }
+        ]
+      },
+      {
+        "coord": {
+          "x": 1,
+          "y": 0
+        },
+        "flags": 3,
+        "states": [
+          {
+            "type": "Mirror",
+            "rotation": 5
+          }
+        ]
+      },
+      {
+        "coord": {
+          "x": 1,
+          "y": 2
+        },
+        "flags": 3,
+        "states": [
+          {
+            "type": "Mirror",
+            "rotation": 5
+          }
+        ]
+      },
+      {
+        "coord": {
+          "x": 1,
+          "y": 8
+        },
+        "flags": 3,
+        "states": [
+          {
+            "type": "Mirror",
+            "rotation": 6
+          }
+        ]
+      },
+      {
+        "coord": {
+          "x": 1,
+          "y": 9
+        },
+        "flags": 3,
+        "states": [
+          {
+            "type": "GHZWSource",
+            "active": true,
+            "rotation": 0,
+            "threeQubitState": "GHZ",
+            "wavelengths": [
+              "Red",
+              "Red",
+              "Red"
+            ]
+          }
+        ]
+      },
+      {
+        "coord": {
+          "x": 2,
+          "y": 0
+        },
+        "flags": 1,
+        "states": [
+          {
+            "type": "Rock"
+          }
+        ]
+      },
+      {
+        "coord": {
+          "x": 2,
+          "y": 2
+        },
+        "flags": 3,
+        "states": [
+          {
+            "type": "Mirror",
+            "rotation": 6
+          }
+        ]
+      },
+      {
+        "coord": {
+          "x": 7,
+          "y": 5
+        },
+        "flags": 3,
+        "states": [
+          {
+            "type": "Mirror",
+            "rotation": 6
+          }
+        ]
+      },
+      {
+        "coord": {
+          "x": 7,
+          "y": 8
+        },
+        "flags": 3,
+        "states": [
+          {
+            "type": "Mirror",
+            "rotation": 6
+          }
+        ]
+      },
+      {
+        "coord": {
+          "x": 8,
+          "y": 1
+        },
+        "flags": 1,
+        "states": [
+          {
+            "type": "Goal",
+            "range": [
+              0,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "coord": {
+          "x": 8,
+          "y": 2
+        },
+        "flags": 3,
+        "states": [
+          {
+            "type": "LogicArithmetic",
+            "rotation": 2,
+            "arithmeticKind": "Sum"
+          }
+        ]
+      },
+      {
+        "coord": {
+          "x": 8,
+          "y": 4
+        },
+        "flags": 3,
+        "states": [
+          {
+            "type": "LogicGate",
+            "rotation": 2,
+            "gateKind": "And"
+          }
+        ]
+      },
+      {
+        "coord": {
+          "x": 8,
+          "y": 6
+        },
+        "flags": 1,
+        "states": [
+          {
+            "type": "Goal",
+            "range": [
+              0,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "coord": {
+          "x": 8,
+          "y": 7
+        },
+        "flags": 3,
+        "states": [
+          {
+            "type": "Detector",
+            "rotation": 0,
+            "cartoonStyle": true,
+            "detectAllDirections": false
+          }
+        ]
+      },
+      {
+        "coord": {
+          "x": 9,
+          "y": 5
+        },
+        "flags": 3,
+        "states": [
+          {
+            "type": "PolarizingBeamSplitter",
+            "rotation": 1,
+            "reflectance": 1
+          }
+        ]
+      },
+      {
+        "coord": {
+          "x": 9,
+          "y": 7
+        },
+        "flags": 3,
+        "states": [
+          {
+            "type": "BeamSplitter",
+            "rotation": 6,
+            "reflectance": 0.5,
+            "reflectionPhase": 0.5
+          }
+        ]
+      },
+      {
+        "coord": {
+          "x": 9,
+          "y": 8
+        },
+        "flags": 3,
+        "states": [
+          {
+            "type": "Detector",
+            "rotation": 1,
+            "cartoonStyle": true,
+            "detectAllDirections": false
+          }
+        ]
+      },
+      {
+        "coord": {
+          "x": 9,
+          "y": 9
+        },
+        "flags": 3,
+        "states": [
+          {
+            "type": "FaradayRotator",
+            "rotation": 0,
+            "polarizationRotation": 0.25
+          }
+        ]
+      },
+      {
+        "coord": {
+          "x": 10,
+          "y": 1
+        },
+        "flags": 1,
+        "states": [
+          {
+            "type": "Goal",
+            "range": [
+              0,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "coord": {
+          "x": 10,
+          "y": 4
+        },
+        "flags": 1,
+        "states": [
+          {
+            "type": "Goal",
+            "range": [
+              0,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "coord": {
+          "x": 10,
+          "y": 8
+        },
+        "flags": 1,
+        "states": [
+          {
+            "type": "Goal",
+            "range": [
+              0,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "coord": {
+          "x": 11,
+          "y": 2
+        },
+        "flags": 3,
+        "states": [
+          {
+            "type": "LogicGate",
+            "rotation": 2,
+            "gateKind": "And"
+          }
+        ]
+      },
+      {
+        "coord": {
+          "x": 11,
+          "y": 4
+        },
+        "flags": 3,
+        "states": [
+          {
+            "type": "Detector",
+            "rotation": 3,
+            "cartoonStyle": true,
+            "detectAllDirections": false
+          }
+        ]
+      },
+      {
+        "coord": {
+          "x": 11,
+          "y": 5
+        },
+        "flags": 3,
+        "states": [
+          {
+            "type": "BeamSplitter",
+            "rotation": 4,
+            "reflectance": 0.5,
+            "reflectionPhase": 0.5
+          }
+        ]
+      },
+      {
+        "coord": {
+          "x": 11,
+          "y": 7
+        },
+        "flags": 3,
+        "states": [
+          {
+            "type": "PolarizingBeamSplitter",
+            "rotation": 1,
+            "reflectance": 1
+          }
+        ]
+      },
+      {
+        "coord": {
+          "x": 11,
+          "y": 9
+        },
+        "flags": 3,
+        "states": [
+          {
+            "type": "Mirror",
+            "rotation": 6
+          }
+        ]
+      },
+      {
+        "coord": {
+          "x": 12,
+          "y": 1
+        },
+        "flags": 3,
+        "states": [
+          {
+            "type": "LogicArithmetic",
+            "rotation": 1,
+            "arithmeticKind": "Sum"
+          }
+        ]
+      },
+      {
+        "coord": {
+          "x": 12,
+          "y": 4
+        },
+        "flags": 3,
+        "states": [
+          {
+            "type": "LogicGate",
+            "rotation": 2,
+            "gateKind": "And"
+          }
+        ]
+      },
+      {
+        "coord": {
+          "x": 12,
+          "y": 5
+        },
+        "flags": 3,
+        "states": [
+          {
+            "type": "Detector",
+            "rotation": 2,
+            "cartoonStyle": true,
+            "detectAllDirections": false
+          }
+        ]
+      },
+      {
+        "coord": {
+          "x": 12,
+          "y": 6
+        },
+        "flags": 1,
+        "states": [
+          {
+            "type": "Goal",
+            "range": [
+              0,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "coord": {
+          "x": 12,
+          "y": 8
+        },
+        "flags": 3,
+        "states": [
+          {
+            "type": "LogicGate",
+            "rotation": 1,
+            "gateKind": "And"
+          }
+        ]
+      }
+    ],
+    "wires": [
+      {
+        "src": 30,
+        "dst": 31,
+        "dst_input": 0
+      },
+      {
+        "src": 24,
+        "dst": 21,
+        "dst_input": 0
+      },
+      {
+        "src": 15,
+        "dst": 14,
+        "dst_input": 0
+      },
+      {
+        "src": 18,
+        "dst": 22,
+        "dst_input": 0
+      },
+      {
+        "src": 15,
+        "dst": 13,
+        "dst_input": 0
+      },
+      {
+        "src": 24,
+        "dst": 13,
+        "dst_input": 1
+      },
+      {
+        "src": 30,
+        "dst": 32,
+        "dst_input": 0
+      },
+      {
+        "src": 18,
+        "dst": 32,
+        "dst_input": 1
+      },
+      {
+        "src": 24,
+        "dst": 23,
+        "dst_input": 0
+      },
+      {
+        "src": 18,
+        "dst": 23,
+        "dst_input": 1
+      },
+      {
+        "src": 30,
+        "dst": 29,
+        "dst_input": 1
+      },
+      {
+        "src": 15,
+        "dst": 29,
+        "dst_input": 0
+      },
+      {
+        "src": 13,
+        "dst": 12,
+        "dst_input": 0
+      },
+      {
+        "src": 32,
+        "dst": 12,
+        "dst_input": 1
+      },
+      {
+        "src": 12,
+        "dst": 11,
+        "dst_input": 0
+      },
+      {
+        "src": 23,
+        "dst": 28,
+        "dst_input": 0
+      },
+      {
+        "src": 29,
+        "dst": 28,
+        "dst_input": 1
+      },
+      {
+        "src": 28,
+        "dst": 20,
+        "dst_input": 0
+      }
+    ]
+  },
+  "version": "3"
+}
